@@ -1,0 +1,22 @@
+.box {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.box-green {
+	display: inline-block;
+	height: 200px;
+	width: 50%;
+	background-color: green;
+	border: 1px solid black;
+}
+
+.box-box-green-blue {
+	display: inline-block;
+	width: 50%;
+	background-color: blue;
+	border: 1px solid black;
+}
