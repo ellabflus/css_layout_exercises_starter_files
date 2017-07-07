@@ -1,1 +1,48 @@
+body * {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.nav {
+	background-color: gray;
+	position: fixed;
+	width: 100%;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+.background {
+	content: cover;
+	width: max-width;
+	margin: auto;
+}
+
+.cat-icon {
+	display: inline-block;
+	position: fixed;
+	margin-top: 10px;
+	width: 45px;
+	height: 45px;
+	left: 15px;
+	border-radius: 50%;
+}
+
+.spacecat {
+	position: absolute;
+	width: -50%;
+	height: -50%;
+	top: 200px;
+	left: 300px;
+}
+
+.spacedog {
+	position: absolute;
+	width: -50%;
+	height: -50%;
+	top: 300px;
+	left: 600px;
+}
+
 
